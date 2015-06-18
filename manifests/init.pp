@@ -1,8 +1,8 @@
-class { screen:
+class { 'screen':
 
   package { 'screen':
-  ensure => 'present'
+  ensure => 'present',
   }
 
-  
+
 }
